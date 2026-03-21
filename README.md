@@ -11,14 +11,18 @@ Aplicativo desenvolvido em Android utilizando Jetpack Compose com o objetivo de 
 ## 📸 Prints do Aplicativo
 
 ### Tela de Login
-[Captura de tela 2026-03-21 020554.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020554.png)
+<img width="394" height="800" alt="Captura de tela 2026-03-21 020554" src="https://github.com/user-attachments/assets/285e605c-84dd-469c-90c8-e20d1bf24c10" />
 
 ### Tela de Menu
-[Captura de tela 2026-03-21 020602.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020602.png)
+<img width="402" height="794" alt="Captura de tela 2026-03-21 020602" src="https://github.com/user-attachments/assets/aebf2c6f-c064-4350-b88c-28a7a7ead389" />
 
 ### Navegação funcionando
-[Captura de tela 2026-03-21 020609.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020609.png)
-[Captura de tela 2026-03-21 020617.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020617.png)
+<img width="373" height="788" alt="Captura de tela 2026-03-21 020609" src="https://github.com/user-attachments/assets/a693901f-c0c1-4688-8e54-1da8de613e03" />
+<img width="386" height="790" alt="Captura de tela 2026-03-21 020617" src="https://github.com/user-attachments/assets/b9e8c4cc-57f8-4eba-bc3d-a4c1f7802a85" />
+<img width="379" height="789" alt="Captura de tela 2026-03-21 020632" src="https://github.com/user-attachments/assets/5464eb69-600a-4e65-b56f-410b61712dcc" />
+<img width="382" height="804" alt="Captura de tela 2026-03-21 020653" src="https://github.com/user-attachments/assets/fffeb234-c5a4-4ad4-9484-4220e5afb8fd" />
+
 
 ## 👩‍💻 Desenvolvido por
 Nicole Alves Nogueira
+
