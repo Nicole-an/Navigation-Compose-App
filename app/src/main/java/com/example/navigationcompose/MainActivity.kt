@@ -17,6 +17,7 @@ import com.example.navigationcompose.ui.theme.screens.LoginScreen
 import com.example.navigationcompose.ui.theme.screens.MenuScreen
 import com.example.navigationcompose.ui.theme.screens.PedidosScreen
 import com.example.navigationcompose.ui.theme.screens.PerfilScreen
+import androidx.navigation.NavType
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,18 +38,33 @@ class MainActivity : ComponentActivity() {
                         composable(route = "menu") {
                             MenuScreen(modifier = Modifier.padding(innerPadding), navController)
                         }
-
                         composable(
                             route = "pedidos?cliente={cliente}",
                             arguments = listOf(navArgument("cliente") {
                                 defaultValue = "Cliente Genérico"
-                                })
-                            ) {
-                                PedidosScreen(modifier = Modifier.padding(innerPadding), navController, it.arguments?.getString("cliente"))
-                            }
-                        composable(route = "perfil/{nome}") {
+                            })
+                        ) {
+                            PedidosScreen(
+                                modifier = Modifier.padding(innerPadding),
+                                navController,
+                                it.arguments?.getString("cliente")
+                            )
+                        }
+                        composable(
+                                route = "perfil/{nome}/{idade}",
+                                arguments = listOf(
+                                    navArgument("nome") { type = NavType.StringType },
+                                    navArgument("idade") { type = NavType.IntType }
+                                )
+                        ) {
                             val nome: String? = it.arguments?.getString("nome", "Usuário Genérico")
-                            PerfilScreen(modifier = Modifier.padding(innerPadding), navController, nome!!)
+                            val idade: Int? = it.arguments?.getInt("idade", 0)
+                            PerfilScreen(
+                                modifier = Modifier.padding(innerPadding),
+                                navController,
+                                nome!!,
+                                idade!!
+                                )
                             }
                         }
                     }
