@@ -2,7 +2,7 @@
 
 ## Explicação Completa do Projeto
 
-### Explicação da MainActivity e da navegação no aplicativo
+## Explicação da MainActivity e da navegação no aplicativo
 
 A classe MainActivity é o ponto de entrada do aplicativo Android e herda de ComponentActivity, sendo responsável por inicializar a interface utilizando Jetpack Compose. Dentro do método onCreate, ocorre toda a configuração inicial da aplicação.
 
@@ -14,7 +14,7 @@ O navController é criado para gerenciar a navegação entre as telas. O NavHost
 
 Assim, a MainActivity centraliza toda a navegação e estrutura do aplicativo.
 
-###Explicação da tela de Login
+## Explicação da tela de Login
 
 A função LoginScreen representa a tela inicial do aplicativo. A interface é construída utilizando um Box, que ocupa toda a tela, possui uma cor de fundo e um espaçamento interno.
 
@@ -22,7 +22,7 @@ No topo, é exibido o título "LOGIN". No centro, há um botão que, ao ser clic
 
 Essa tela inicia o fluxo do aplicativo de forma simples e direta.
 
-### Explicação da tela de Menu
+## Explicação da tela de Menu
 
 A função MenuScreen representa a tela principal após o login. Ela utiliza um Box como estrutura base e uma Column para organizar os elementos verticalmente.
 
@@ -32,7 +32,7 @@ O primeiro botão navega para a tela de perfil, enviando nome e idade como parâ
 
 Essa tela funciona como um ponto central de navegação entre as funcionalidades.
 
-### Explicação da tela de Pedidos
+## Explicação da tela de Pedidos
 
 A função PedidosScreen representa a tela onde são exibidos os pedidos. Ela recebe um parâmetro opcional chamado cliente, que é utilizado para personalizar o conteúdo.
 
@@ -42,7 +42,7 @@ No centro, há um botão que permite voltar para o menu. Essa navegação é fei
 
 Essa tela demonstra o uso de parâmetros opcionais na navegação.
 
-### Explicação da tela de Perfil
+## Explicação da tela de Perfil
 
 A função PerfilScreen é responsável por exibir informações do usuário. Ela recebe como parâmetros o nome e a idade, que são obrigatórios e enviados durante a navegação.
 
