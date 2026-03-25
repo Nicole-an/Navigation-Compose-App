@@ -62,14 +62,18 @@ De forma geral, essa tela exemplifica o uso de parâmetros obrigatórios na nave
 ## Prints do Aplicativo
 
 ### Tela de Login
-[Captura de tela 2026-03-21 020554.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020554.png)
+<img width="394" height="800" alt="image" src="https://github.com/user-attachments/assets/f76d0fa8-26b1-4fb4-b7ed-a051f90aed9b" />
 
 ### Tela de Menu
-[Captura de tela 2026-03-21 020602.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020602.png)
+<img width="402" height="794" alt="image" src="https://github.com/user-attachments/assets/1a5bb456-7496-4520-b3f5-d3791147aee4" />
 
 ### Navegação funcionando
-[Captura de tela 2026-03-21 020609.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020609.png)
-[Captura de tela 2026-03-21 020617.png](../../Users/nicol/OneDrive/Imagens/Capturas%20de%20tela/Captura%20de%20tela%202026-03-21%20020617.png)
+<img width="373" height="788" alt="image" src="https://github.com/user-attachments/assets/d184f767-c51a-48bc-8145-d8e890a827c0" />
+<img width="386" height="790" alt="image" src="https://github.com/user-attachments/assets/4a9c8463-3b84-40d1-b4f6-1da6c0550695" />
+<img width="379" height="789" alt="image" src="https://github.com/user-attachments/assets/71712c3c-c088-4d6f-b3c2-dc687f1be4d1" />
+<img width="382" height="804" alt="image" src="https://github.com/user-attachments/assets/ac84afff-5bc2-4d25-851f-c487850c2fe8" />
+
+
 
 ## Desenvolvido por
 Nicole Alves Nogueira
